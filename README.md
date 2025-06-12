@@ -1,2 +1,2 @@
 # SWE-Cummings-Co
-'''Repo for SWE Internship'''
+Repo for SWE Internship
