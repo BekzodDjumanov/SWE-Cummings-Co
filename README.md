@@ -1,5 +1,5 @@
 # SWE-Cummings-Co
-```Repo for SWE Internship
+Repo for SWE Internship
     pub fn get_rand_ipv6(subnet: &str) -> IpAddr {
     let (ipv6, prefix_len) = match subnet.parse::<Ipv6Cidr>() {
         Ok(cidr) => {
@@ -31,7 +31,7 @@ pub fn create_client(subnet: &str, user_agent: &str) -> Client {
         .user_agent(user_agent)
         .local_address(Some(ip))
         .build().unwrap()
-}```
+}
 
 ```Routing IPv6 through NI and using requests for selecting a randomized IP Address.```
 
