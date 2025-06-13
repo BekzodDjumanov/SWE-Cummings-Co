@@ -36,4 +36,6 @@ pub fn create_client(subnet: &str, user_agent: &str) -> Client {
 }
 ```
 
-**Leveraging IPv6 through a Network Interface, using requests to assign an IP (from a subnet) to my session**
+**Objective: Leveraging IPv6 through a Network Interface, using requests to assign an IP (from a subnet) to my session**
+
+_This document is public and may be distributed without limitation._
